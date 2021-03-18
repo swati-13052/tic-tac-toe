@@ -1,0 +1,25 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background: #e2e2e2;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardContainer{
+    display: flex;
+    width: 310px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.winner {
+    background: cadetblue;
+}
+
+.disable {
+    pointer-events: none;
+}
